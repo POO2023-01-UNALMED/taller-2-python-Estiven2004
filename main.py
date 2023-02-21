@@ -22,9 +22,9 @@ class Auto:
     def cantidadAsientos(self):
         numeroAsientos = 0
         for asiento in self.asientos:
-            if (type(asiento)==Asiento):
+            if (type(asiento) == Asiento):
                 numeroAsientos += 1
-            return numeroAsientos
+        return numeroAsientos
 
     def verificarIntegridad(self):
         if (self.registro == self.motor.registro):
